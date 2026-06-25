@@ -2,7 +2,7 @@ name: Release PR Management
 
 on:
   schedule:
-    - cron: '35 9 * * *'
+    - cron: '42 9 * * *'
       timezone: 'Asia/Kolkata'
 
 env:
