@@ -2,7 +2,8 @@ name: Release PR Management
 
 on:
   schedule:
-    - cron: '40 3 * * *'
+    - cron: '35 9 * * *'
+      timezone: 'Asia/Kolkata'
 
 env:
   RELEASE_INIT_BRANCH: release/2026.9.1
