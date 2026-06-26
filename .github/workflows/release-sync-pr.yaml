@@ -21,4 +21,4 @@ jobs:
           base: 'release/2026.9.2'
           assignees: sairohith2605
           title: 'Release Sync PR'
-          branch: $RELEASE_INIT_BRANCH
+          branch: ${{ env.RELEASE_INIT_BRANCH }}
